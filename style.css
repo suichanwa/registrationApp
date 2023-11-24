@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+
+#page {
+    display: flex;
+    flex-direction: row;
+}
+
+#meniu {
+    width: 7%;
+    height: auto;
+    background-color: #f88379;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.menu-item:not(:first-child) {
+    background-color: rgba(169, 169, 169, 0.3); 
+}
+
+.menu-item:first-child {
+    width: 100px; 
+    height: 100px; 
+}
+
+.menu-item:first-child::after {
+    content: ''; 
+    position: absolute;
+    width: 100%; 
+    height: 2px; 
+    background-color: rgb(243, 240, 240); 
+    bottom: -10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.menu-item img {
+    width: 50%;
+    height: 50%;
+}
+
+#friends {
+    width: 93%;
+    height: auto;
+    background-color: rgb(243, 240, 240);
+    margin: 0;
+    padding: 40px;
+}
+
+.person {
+    width: 180px;
+    height: 240px;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nickname {
+    font-size: 1.3em; 
+    margin: 5px 0 2px; 
+    font-family: Arial, sans-serif; 
+}
+
+.email {
+    font-size: 0.8em; 
+    color: #888; 
+    margin: 2px 0 10px; 
+}
+
+.addFriend {
+    font-size: 0.9em;
+    margin-top: 10px; 
+}
+
+
+.profilePhoto{
+    height: 30%;
+    border-radius: 20%;
+    margin-bottom: 5px;
+}
+
+
+.addFriend {
+  align-items: center;
+  appearance: none;
+  background-color: #f88379;
+  background-image: linear-gradient(1deg, #f88379, #f97d72 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.addFriend:active,
+.addFriend:focus {
+  outline: none;
+}
+
+.addFriend:hover {
+  background-position: -20px -20px;
+}
+
+.addFriend:focus:not(:active) {
+  box-shadow: #FFA366 .125em;
+}
+
+#title{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+
+.continerPersons {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px;
+}
+
