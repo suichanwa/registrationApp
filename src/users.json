@@ -1,23 +1,27 @@
-{
-    "users": [
-      {
-        "username": "user",
-        "password": "password",
-        "email": "user1@example.com"
-        
-      },
-      {
-        "username": "user1",
-        "password": "password1",
-        "email": "user1@example.com"
-        
-      },
-      {
-        "username": "user2",
-        "password": "password2",
-        "email": "user1@example.com"
-        
-      }
-    ]
-}
-  
+[
+  {
+    "username": "namename",
+    "password": "suichanwa",
+    "email": "name@gmail.com"
+  },
+  {
+    "username": "namename",
+    "password": "suichanwa",
+    "email": "name@gmail.com"
+  },
+  {
+    "username": "namename",
+    "password": "suichanwa",
+    "email": "name@gmail.com"
+  },
+  {
+    "username": "namename",
+    "password": "namename",
+    "email": "suisei@gmail.com"
+  },
+  {
+    "username": "namename",
+    "password": "namename",
+    "email": "suisei@gmail.com"
+  }
+]

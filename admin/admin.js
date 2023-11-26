@@ -1,4 +1,4 @@
- fetch('src/users.json')
+ fetch('../src/users.json')
         .then(response => response.json())
         .then(data => {
             const users = data.users;
